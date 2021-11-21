@@ -1,3 +1,5 @@
+// array collections of variables of same type
+// structure collection of variables of differet datatypes
 #include <stdio.h>
 struct emp
 {
