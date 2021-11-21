@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 struct emp
 {
     int id;
@@ -15,6 +16,7 @@ int main()
     printf("%d\n", ep -> id);
     printf("%s\n", ep -> name);
     printf("%d\n", ep -> sal);
+    printf("%c\n", ep -> name[1]);  
     // printf("%d\n", e1.id);
     // printf("%s\n", e1.name);
     // printf("%d\n", e1.sal);
