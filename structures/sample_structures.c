@@ -20,6 +20,7 @@ int main()
     scanf("%d", &e2.id);
 
     printf("Enter name:\n");
+    __fpurge(stdin);
     fgets(e2.name, sizeof(e2.name), stdin);
 
     printf("Enter sal: \n");
